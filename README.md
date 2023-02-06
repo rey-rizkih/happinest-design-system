@@ -7,8 +7,15 @@ This example for making design system with `react, vite, and mui-5`.
 Install with npm
 
 ```bash
-npm -i --save happinest-design
+npm -i --save happinest-design @emotion/react @emotion/styled @mui/material
 ```
+
+Install with yarn
+
+```bash
+yarn add -D happinest-design @emotion/react @emotion/styled @mui/material
+```
+
 
 ## Usage
 
