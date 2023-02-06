@@ -2,20 +2,15 @@
 
 This example for making design system with `react, vite, and mui-5`.
 
+[NPM](https://www.npmjs.com/package/happinest-design)
+
 ## How to use
 
 Install with npm
 
 ```bash
-npm -i --save happinest-design @emotion/react @emotion/styled @mui/material
+npm -i --save happinest-design
 ```
-
-Install with yarn
-
-```bash
-yarn add -D happinest-design @emotion/react @emotion/styled @mui/material
-```
-
 
 ## Usage
 
