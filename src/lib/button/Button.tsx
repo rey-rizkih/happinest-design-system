@@ -4,15 +4,15 @@ import {
 } from "@mui/material";
 import type { PropsWithChildren } from "react";
 
-export interface HappinestButtonProps extends MUIButtonProps {
+export interface ButtonProps extends MUIButtonProps {
   loading?: boolean;
 }
 
-const HappinestButton = ({
+const Button = ({
   loading = false,
   children,
   ...props
-}: PropsWithChildren<HappinestButtonProps>) => {
+}: PropsWithChildren<ButtonProps>) => {
   return (
     <MUIButton variant="contained" {...props}>
       {loading ? "..." : children}
@@ -20,4 +20,4 @@ const HappinestButton = ({
   );
 };
 
-export default HappinestButton;
+export default Button;
